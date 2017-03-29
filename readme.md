@@ -1,2 +1,2 @@
-# StudtGram
+# StudyGram
 this is study + instagram
