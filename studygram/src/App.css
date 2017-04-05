@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body {
+    background-color: #fafafa;
+}
+
 .App {
   text-align: center;
 }
@@ -17,6 +23,52 @@
 .App-intro {
   font-size: large;
 }
+
+.MenuBar-pic {
+    height: 25px;
+    margin-left: 30px;
+}
+
+.MenuBar-pic:nth-child(2) {
+
+}
+
+.Header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.Header-Logo {
+    flex: 1 0 0%;
+}
+
+.Header-Search {
+    flex: 0 1 0%;
+}
+
+.Header-MenuBar {
+    flex: 1 0 0%;
+}
+
+.Search-div {
+
+}
+
+.Search-input {
+    height: 22px;
+    width: 220px;
+    background-color: snow;
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 2px;
+    text-align: center;
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

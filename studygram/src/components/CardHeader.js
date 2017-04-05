@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import profilePic from '../profilePic.png';
+{ /* import profilePic from '../profilePic.png'; */ }
 
 const propTypes = {
     name: React.PropTypes.string,
@@ -16,7 +16,7 @@ class CardHeader extends Component {
     render() {
         return(
             <div>
-                <img src={profilePic} alt="profile"/>
+                { /* <img src={profilePic} alt="profile"/> */ }
                 <h3>this.props.name</h3>
                 <span>this.props.time</span>
             </div>

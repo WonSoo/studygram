@@ -1,7 +1,9 @@
 import React, { Component, PropTypes } from 'react';
-import Search from './Search';
 import MenuBar from './MenuBar';
-import logo from '../logo.png';
+import Search from './Search';
+/* import Search from './Search';
+import MenuBar from './MenuBar';
+import logo from '../logo.png'; */
 import '../App.css'
 
 const propTypes = {
@@ -15,10 +17,13 @@ class Header extends Component {
     render() {
         return(
             <div>
-                <header>
-                    <img src={logo} className="logoImg" alt="logo"/>
+                <header className="Header">
+                    <h1 className="Header-Logo">Studygram</h1>
+                    <Search className="Header-Search"></Search>
+                    <MenuBar className="Header-MenuBar"/>
+                    { /*}<img src={logo} className="logoImg" alt="logo"/>
                     <Search></Search>
-                    <MenuBar/>
+                    <MenuBar/> */ }
                 </header>
             </div>
         );

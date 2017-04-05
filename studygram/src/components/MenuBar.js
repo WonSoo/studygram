@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
-import list from '../list.png';
-import account from '../account';
+import list from '../img/list.svg';
+import account from '../img/account.svg';
+{ /*import list from '../list.png';
+import account from '../account'; */ }
 
 const propTypes = {
 };
@@ -12,10 +14,10 @@ class MenuBar extends Component {
     }
     render() {
         return(
-            <div>
-            <a><img src={list} alt="list"/></a>
-            <a><img src={account} alt="account"/></a>
-            <a><img src={list} alt="list"/></a>
+            <div className="Header-MenuBar">
+            <a><img className="MenuBar-pic" src={list} alt="list"/></a>
+            <a><img className="MenuBar-pic" src={account} alt="account"/></a>
+            <a><img className="MenuBar-pic" src={list} alt="list"/></a>
             </div>
         );
     }

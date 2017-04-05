@@ -9,7 +9,9 @@ class Search extends Component {
     }
     render() {
         return(
-            <div>Search</div>
+            <div className="Search-div">
+                <input className="Search-input" type="text" placeholder="검색"/>
+            </div>
         );
     }
 }
