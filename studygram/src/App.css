@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-
 body {
     background-color: #fafafa;
 }
 
 .App {
-  text-align: center;
+    /*text-align: center;*/
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
 }
 
 .MenuBar-pic {
@@ -29,9 +28,7 @@ body {
     margin-left: 30px;
 }
 
-.MenuBar-pic:nth-child(2) {
-
-}
+.MenuBar-pic:nth-child(2) {}
 
 .Header {
     height: 80px;
@@ -40,7 +37,8 @@ body {
     align-items: center;
     font-family: 'Kaushan Script', cursive;
     background-color: #ffffff;
-    border-bottom: 1px solid rgba(0,0,0,.0975);
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+    text-align: center;
 }
 
 .Header-Logo {
@@ -55,22 +53,94 @@ body {
     flex: 1 0 0%;
 }
 
-.Search-div {
-
-}
+.Search-div {}
 
 .Search-input {
     height: 22px;
     width: 220px;
     background-color: snow;
-    border: 1px solid rgba(0,0,0,.0975);
+    border: 1px solid rgba(0, 0, 0, .0975);
     border-radius: 2px;
     text-align: center;
 }
 
+.Article-section {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 30px;
+}
 
+.Card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .0975);
+    border-radius: 2px;
+}
+
+.Card-Picture-Div {
+    width: 100%;
+
+}
+
+.Card-Picture {
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+}
+
+.Card-Header {
+    display: flex;
+    align-items: center;
+}
+
+.Card-Header-Name-Div {
+    display: flex;
+    flex: 2 0 0%;
+}
+
+.Card-Header-Name {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.Card-Header-Time {
+    display: flex;
+    flex: 1 0 0%;
+}
+
+.Card-Header-Time {
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 0.8rem;
+}
+
+.Card-Tag-Div {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.Card-Tag {
+    color: blue;
+    font-weight: 500;
+}
+
+.Tag-Container-Div {
+    padding-left: 10px;
+}
+
+.Card-Article-Div {
+    padding-left: 10px;
+}
+
+.Card-Article-Div p {
+    font-size: 0.9rem;
+}
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

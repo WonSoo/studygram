@@ -1,9 +1,10 @@
 import React, { Component, PropTypes } from 'react';
 const propTypes = {
-    content: React.PropTypes.sring
+    content: React.PropTypes.string
 };
 const defaultProps = {
-    content: "default content string"
+    content: "default content string",
+    title: "default title string"
 };
 class CardArticle extends Component {
     constructor(props) {
@@ -11,7 +12,10 @@ class CardArticle extends Component {
     }
     render() {
         return(
-            <div>{this.props.content}</div>
+            <div className="Card-Article-Div">
+                <h5>{this.props.title}</h5>
+                <p>{this.props.content}</p>
+            </div>
         );
     }
 }

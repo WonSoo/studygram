@@ -11,8 +11,8 @@ class CardPicture extends Component {
     }
     render() {
         return(
-            <div>
-                <img src={this.props.picture} alt="main"/>
+            <div className="Card-Picture-Div">
+                <img className="Card-Picture" src={this.props.picture} alt="main"/>
             </div>
         );
     }

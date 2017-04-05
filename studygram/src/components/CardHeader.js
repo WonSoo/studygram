@@ -1,9 +1,10 @@
-import React, { Component, PropTypes } from 'react';
-{ /* import profilePic from '../profilePic.png'; */ }
+import React, {Component, PropTypes} from 'react';
+{/* import profilePic from '../profilePic.png'; */
+}
 
 const propTypes = {
     name: React.PropTypes.string,
-    time: React.PropTypes.string,
+    time: React.PropTypes.string
 };
 const defaultProps = {
     name: "default name momo",
@@ -14,11 +15,15 @@ class CardHeader extends Component {
         super(props);
     }
     render() {
-        return(
-            <div>
-                { /* <img src={profilePic} alt="profile"/> */ }
-                <h3>this.props.name</h3>
-                <span>this.props.time</span>
+        return (
+            <div className="Card-Header">
+                {/* <img src={profilePic} alt="profile"/> */}
+                <div className="Card-Header-Name-Div">
+                    <h3 className="Card-Header-Name">{this.props.name}</h3>
+                </div>
+                <div className="Card-Header-Name-Time">
+                    <span className="Card-Header-Time">{this.props.time}</span>
+                </div>
             </div>
         );
     }

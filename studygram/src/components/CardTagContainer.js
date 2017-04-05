@@ -18,8 +18,8 @@ class CardTagContainer extends Component {
             })
         }
         return(
-            <div>
-                convertToTag(this.props.tags)
+            <div className="Tag-Container-Div">
+                {convertToTag(this.props.tags)}
             </div>
         );
     }

@@ -9,7 +9,9 @@ class Tag extends Component {
     }
     render() {
         return(
-            <div>Tag</div>
+            <div className="Card-Tag-Div">
+                <a className="Card-Tag" href="">#{this.props.name}</a>
+            </div>
         );
     }
 }
