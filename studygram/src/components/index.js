@@ -8,6 +8,8 @@ import Header from './Header';
 import MenuBar from './MenuBar';
 import Search from './Search';
 import Contents from './Contents';
+import PostWriter from './PostWriter';
+import SearchResult from './SearchResult';
 
 
-export { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Header, MenuBar, Search, Contents}
+export { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Header, MenuBar, Search, Contents, PostWriter, SearchResult}
