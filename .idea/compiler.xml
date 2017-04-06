@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="studygram-core_main" target="1.8" />
+      <module name="studygram-core_test" target="1.8" />
+      <module name="studygram-utils_main" target="1.8" />
+      <module name="studygram-utils_test" target="1.8" />
+      <module name="studygram_main" target="1.8" />
+      <module name="studygram_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
