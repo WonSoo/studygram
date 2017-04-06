@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core.iml" group="studygram-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_main.iml" group="studygram-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_test.iml" group="studygram-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils.iml" group="studygram-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_main.iml" group="studygram-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_test.iml" group="studygram-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram_main.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram_main.iml" group="studygram" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studygram_test.iml" filepath="$PROJECT_DIR$/.idea/modules/studygram_test.iml" group="studygram" />
+    </modules>
+  </component>
+</project>
