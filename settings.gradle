@@ -1,4 +1,3 @@
 rootProject.name = 'studygram'
 
-include 'studygram-core'
-include 'studygram-utils'
+include 'studygram-core', 'studygram-utils'
