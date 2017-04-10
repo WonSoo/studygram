@@ -16,7 +16,7 @@ public enum LoggerTest {
     LoggerTest()
     {
         System.setProperty(XmlConfigurationFactory.CONFIGURATION_FILE_PROPERTY,LOGGER_CONFIG_PATH);
-        logger = LogManager.getLogger();
+        logger = LogManager.getLogger("SecureConfig");
     }
 
     public void log(String level, String message)
