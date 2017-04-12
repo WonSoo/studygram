@@ -7,9 +7,12 @@
 #gradle settings files
 /.gradle
 
-#generated files
-build/*
-out/*
+#config file like mongoDB
+*/conf
 
-#config file like mongoDB(id, password etc..)
-conf/*
+#generated files
+*/build
+*/out
+
+
+
