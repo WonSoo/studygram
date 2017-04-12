@@ -3,6 +3,6 @@
     <database>
         <name>studygram</name>
         <id>cynos07</id>
-        <password>0000</password>
+        <password>123</password>
     </database>
 </configuration>
