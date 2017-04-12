@@ -4,13 +4,12 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.StaticHandler;
-import kr.studygram.utils.Logger.LoggerTest;
 
 
 /**
  * Created by production on 2017-04-02.
  */
-public class studyVerticle extends AbstractVerticle {
+public class webVerticle extends AbstractVerticle {
 
     public static final String webroot = "kr.studygram.core";
 
@@ -19,9 +18,7 @@ public class studyVerticle extends AbstractVerticle {
         System.out.println("start called");
         Vertx vertx = getVertx();
         Router router = Router.router(vertx);
-        router.route().handler(StaticHandler.create("WEB-INF"));
-        LoggerTest.INSTANCE.log("info","TestLogger");
-//        Database.getInstance();
+        router.route().handler(StaticHandler.create("webroot"));
         vertx.createHttpServer().requestHandler(router::accept).listen(1234);
     }
 

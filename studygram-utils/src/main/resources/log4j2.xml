@@ -13,12 +13,11 @@
 
     <!-- Logger 설정 -->
     <Loggers>
-        <Logger name="SecureConfig" level="DEBUG" additivity="false">
-            <AppenderRef ref="console"/>
+        <Logger name="Logger" level="INFO" additivity="false">
             <AppenderRef ref="file"/>
         </Logger>
         <Root level="ERROR">
-        <AppenderRef ref="console"/>
+            <AppenderRef ref="console"/>
         </Root>
     </Loggers>
 </Configuration>
