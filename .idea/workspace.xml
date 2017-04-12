@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd85bbc9-3fca-483c-9467-1fa3cf0be079" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml" afterPath="$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -135,7 +135,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecureConfig.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SecureConfig.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -827,8 +827,8 @@
         <option value="$PROJECT_DIR$/studygram-utils/src/main/java/kr/studygram/utils/database/SecureConfig.java" />
         <option value="$PROJECT_DIR$/studygram-utils/src/main/java/kr/studygram/utils/database/Database.java" />
         <option value="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/databaseVerticle.java" />
-        <option value="$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml" />
       </list>
     </option>
   </component>
@@ -1722,7 +1722,7 @@
       <workItem from="1491782868406" duration="9174000" />
       <workItem from="1491866349809" duration="589000" />
       <workItem from="1491866972096" duration="9672000" />
-      <workItem from="1491953000498" duration="17230000" />
+      <workItem from="1491953000498" duration="17322000" />
     </task>
     <task id="LOCAL-00001" summary="add react rendering">
       <created>1491447364587</created>
@@ -1752,7 +1752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491991548915</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add logger, SecureConfig, database(mongoDB)">
+      <created>1491991656349</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491991656349</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1788,7 +1795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75242000" />
+    <option name="totallyTimeSpent" value="75334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2199,14 +2206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/media/list.bb442afe.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -2251,6 +2250,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>
