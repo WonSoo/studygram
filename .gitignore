@@ -8,7 +8,7 @@
 /.gradle
 
 #config file like mongoDB
-*/conf
+conf/*
 
 #generated files
 */build
