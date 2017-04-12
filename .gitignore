@@ -12,4 +12,4 @@ build/
 out/
 
 #config file like mongoDB(id, password etc..)
-SecureConfig.xml
+SecureConfig.xml/

@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd85bbc9-3fca-483c-9467-1fa3cf0be079" name="Default" comment="Add logger, SecureConfig, database(mongoDB)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/databaseVerticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-utils/src/main/resources/conf/SecureConfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-utils/src/test/java/DatabaseTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/classes/main/kr/studygram/core/studyVerticle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/classes/main/kr/studygram/core/vertxTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/asset-manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/css/main.dcb6d546.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/css/main.dcb6d546.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/js/main.470b9036.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/js/main.470b9036.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/media/account.625b6e01.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/media/list.bb442afe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/media/next.427e50b9.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/WEB-INF/static/media/sana.0edf39f4.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/studyVerticle.java" afterPath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/webVerticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/vertxTest.java" afterPath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/vertxMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/asset-manifest.json" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/asset-manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/favicon.ico" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/index.html" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/index2.html" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/css/main.dcb6d546.css" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/css/main.dcb6d546.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/css/main.dcb6d546.css.map" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/css/main.dcb6d546.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/js/main.470b9036.js" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.470b9036.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/js/main.470b9036.js.map" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.470b9036.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/media/account.625b6e01.svg" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/media/account.625b6e01.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/media/list.bb442afe.svg" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/media/list.bb442afe.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/media/next.427e50b9.svg" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/media/next.427e50b9.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/WEB-INF/static/media/sana.0edf39f4.jpg" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/media/sana.0edf39f4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/studygram-utils/src/main/java/kr/studygram/utils/Logger/LoggerTest.java" afterPath="$PROJECT_DIR$/studygram-utils/src/main/java/kr/studygram/utils/Logger/Logger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_test.iml" />
+    <list default="true" id="dd85bbc9-3fca-483c-9467-1fa3cf0be079" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-utils/build.gradle" afterPath="$PROJECT_DIR$/studygram-utils/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-utils/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/studygram-utils/src/main/resources/log4j2.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -139,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1762,7 +1722,7 @@
       <workItem from="1491782868406" duration="9174000" />
       <workItem from="1491866349809" duration="589000" />
       <workItem from="1491866972096" duration="9672000" />
-      <workItem from="1491953000498" duration="17113000" />
+      <workItem from="1491953000498" duration="17230000" />
     </task>
     <task id="LOCAL-00001" summary="add react rendering">
       <created>1491447364587</created>
@@ -1785,7 +1745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491797714431</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add logger, SecureConfig, database(mongoDB)">
+      <created>1491991548915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491991548915</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1821,7 +1788,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75125000" />
+    <option name="totallyTimeSpent" value="75242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2283,7 +2250,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
