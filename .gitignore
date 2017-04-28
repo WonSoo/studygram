@@ -1,16 +1,10 @@
-#log4j2 log files
-/logs
 
-#vertx cached files
-/.vertx
-
-#gradle settings files
-/.gradle
-/.idea
-
-#config file like mongoDB
-conf/*
-
-#generated files
-*/build
-*/out
+/.vertx/
+/.idea/
+/logs/
+/out/
+/gradle/
+/.gradle/
+build/
+/studygram-utils/src/main/resources/conf/
+/studygram-utils/src/main/resources/log4j2.xml

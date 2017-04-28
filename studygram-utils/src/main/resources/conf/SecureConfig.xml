@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<configuration>
-    <database>
-        <name>studygram</name>
-        <id>cynos07</id>
-        <password>0000</password>
-        <password>asdfasdf12</password>
-    </database>
-</configuration>
