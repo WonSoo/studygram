@@ -10,6 +10,7 @@ import Search from './Search';
 import Contents from './Contents';
 import PostWriter from './PostWriter';
 import SearchResult from './SearchResult';
+import Slider from './Slider';
 
 
-export { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Header, MenuBar, Search, Contents, PostWriter, SearchResult}
+export { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Header, MenuBar, Search, Contents, PostWriter, SearchResult, Slider}

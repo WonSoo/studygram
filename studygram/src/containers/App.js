@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 /* import logo from './logo.svg'; */
 /* import './App.css'; */
 import {Header, Card, Contents, PostWriter} from '../components';
+import FacebookLogin from 'react-facebook-login';
 
 class App extends Component {
     render() {
@@ -13,7 +14,15 @@ class App extends Component {
                     <Card></Card>
                     <Card></Card>
                     <Card></Card>
+                    <Card></Card>
+                      <FacebookLogin appId="1903051689966506" autoLoad={true} fields="name,email,picture" onClick={() => {
+                          console.log("callback");
+                      }} callback={(response) => {
+                          console.log(response);
+                      //    console.log(response.status);
+                      }}/>
                 </Contents>
+                { this.props.children }
 
                 {/* <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
