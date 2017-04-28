@@ -1,8 +1,10 @@
 package kr.studygram.core;
 
+import com.google.gson.JsonArray;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.Json;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.BodyHandler;
@@ -31,28 +33,19 @@ public class GramsVerticle extends AbstractVerticle {
         router.delete("/api/gram/:id").handler(this::deleteGram);
     }
 
-
     private void getGramMany(RoutingContext routingContext) {
         System.out.println(routingContext.pathParam("lastIndex")+" + getGramMany");
+        int lastIndex = Integer.parseInt(routingContext.pathParam("lastIndex"));
         HttpServerResponse response = routingContext.response();
-        // enable chunked responses because we will be adding data as
-        // we execute over other handlers. This is only required once and
-        // only if several handlers do output.
         response.setChunked(true);
+        Document searchQuery = new Document();
+        searchQuery.put("id", new Document("$gt", lastIndex));
+        JsonArray jsonArray = database.findMany("grams", searchQuery, 15);
 
-        response.write("getGramMany\n");
-//        Document doc = new Document();
-//
-//        doc.append("_id", routingContext.pathParam("lastIndex"));
-    }
-
-    private void test(RoutingContext routingContext) {
-        System.out.println("test Method called");
-        System.out.println(routingContext.statusCode());
+        response.write(jsonArray.toString());
     }
 
     private void getGramOne(RoutingContext routingContext) {
-        System.out.println("fuck");
         System.out.println(routingContext.request().getParam("id")+" + getGramOne");
         HttpServerResponse response = routingContext.response();
         response
@@ -71,9 +64,9 @@ public class GramsVerticle extends AbstractVerticle {
 
     private void addGram(RoutingContext routingContext) {
         System.out.println("addGram");
-//        Document doc = new Document();
-//        doc = jsonParser.decodeValue(routingContext.getBodyAsString(), Document.class);
-//        Database.INSTANCE.insert("content", doc);
+        JsonObject json = routingContext.getBodyAsJson();
+//        String accessToken = json.getString("accessToken");
+        database.insert("grams", new Document().parse(json.toString()));
     }
 
     private void deleteGram(RoutingContext routingContext) {

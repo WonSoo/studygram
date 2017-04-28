@@ -20,20 +20,15 @@ public class VertxMain {
         vertx = Vertx.vertx(options);
         server = vertx.createHttpServer();
         router = Router.router(vertx);
-
     }
 
     public static void main(String[] args) {
         initialize();
 
-        vertx.deployVerticle(new LoginVerticle());
         vertx.deployVerticle(new GramsVerticle());
-
+//        vertx.deployVerticle(new LoginVerticle());
         vertx.deployVerticle(new WebVerticle()); // using static Handler, must be after other verticle deploied.
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
-        System.out.println("Main: " + router.toString());
-
-
     }
 
     public static Vertx getVertx() {

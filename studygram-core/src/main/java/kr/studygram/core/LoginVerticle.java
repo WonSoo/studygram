@@ -57,7 +57,7 @@ public class LoginVerticle extends AbstractVerticle {
 
     private boolean checkRegistered(String id)
     {
-        return database.find("accounts", "id", id);
+        return database.isExist("accounts", "id", id);
     }
 
     private void createAccount(String id, String name)

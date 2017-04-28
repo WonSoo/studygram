@@ -1,5 +1,6 @@
 package kr.studygram.utils.database;
 
+import com.google.gson.JsonArray;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
@@ -26,7 +27,6 @@ public enum Database {
         uri = new MongoClientURI(DB_URL);
         mongoClient = new MongoClient(uri);
         mongoDatabase = mongoClient.getDatabase(DEFAULT_DB_NAME);
-
     }
 
     private void createCountCollection(String collectionName) {
@@ -44,7 +44,23 @@ public enum Database {
         this.collection.deleteOne(doc);
     }
 
-    public boolean find(String collection, String field, String searchKey)
+    public JsonArray findMany(String collection, Document searchQuery)
+    {
+        return this.findMany(collection, searchQuery, 100);
+    }
+
+    public JsonArray findMany(String collection, Document searchQuery, int limit)
+    {
+        this.collection = mongoDatabase.getCollection(collection);
+        MongoCursor<Document> cursor = this.collection.find(searchQuery).limit(limit).iterator();
+        JsonArray jsonArray = new JsonArray();
+        while(cursor.hasNext())
+            jsonArray.add(cursor.next().toJson());
+        return jsonArray;
+    }
+
+
+    public boolean isExist(String collection, String field, String searchKey)
     {
         Document searchQuery = new Document();
         searchQuery.put(field, searchKey);
