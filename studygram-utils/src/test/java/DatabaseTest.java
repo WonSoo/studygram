@@ -1,5 +1,3 @@
-import kr.studygram.utils.database.Database;
-import org.bson.Document;
 import org.junit.Test;
 
 /**
@@ -8,6 +6,6 @@ import org.junit.Test;
 public class DatabaseTest{
     @Test
     public void call() {
-        Database.INSTANCE.insert("account", new Document("name", "user").append("id", "test").append("password", "test"));
+        ConstructorTest cons = new ConstructorTest("asdf");
     }
 }

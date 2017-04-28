@@ -1,4 +1,4 @@
-package kr.studygram.utils.Logger;
+package kr.studygram.utils.logger;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -15,7 +15,7 @@ public enum Logger {
     Logger()
     {
         System.setProperty(XmlConfigurationFactory.CONFIGURATION_FILE_PROPERTY,LOGGER_CONFIG_PATH);
-        logger = LogManager.getLogger("Logger");
+        logger = LogManager.getLogger("logger");
     }
 
     public void log(String level, String message)

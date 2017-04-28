@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../studygram-core/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../studygram-core/build" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8.0_111" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

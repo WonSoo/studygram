@@ -9,7 +9,7 @@ import io.vertx.ext.web.handler.StaticHandler;
 /**
  * Created by production on 2017-04-02.
  */
-public class webVerticle extends AbstractVerticle {
+public class WebVerticle extends AbstractVerticle {
 
     public static final String webroot = "kr.studygram.core";
 
@@ -17,9 +17,9 @@ public class webVerticle extends AbstractVerticle {
     public void start() throws Exception {
         System.out.println("start called");
         Vertx vertx = getVertx();
-        Router router = Router.router(vertx);
+        Router router = VertxMain.getRouter();
+
         router.route().handler(StaticHandler.create("webroot"));
-        vertx.createHttpServer().requestHandler(router::accept).listen(1234);
     }
 
     @Override

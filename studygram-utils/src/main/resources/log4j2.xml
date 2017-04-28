@@ -11,7 +11,7 @@
         </File>
     </Appenders>
 
-    <!-- Logger 설정 -->
+    <loggergger 설정 -->
     <Loggers>
         <Logger name="Logger" level="INFO" additivity="false">
             <AppenderRef ref="file"/>

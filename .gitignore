@@ -6,13 +6,11 @@
 
 #gradle settings files
 /.gradle
+/.idea
 
 #config file like mongoDB
-*/conf
+conf/*
 
 #generated files
 */build
 */out
-
-
-
