@@ -25,8 +25,7 @@ public class VertxMain {
     public static void main(String[] args) {
         initialize();
 
-        vertx.deployVerticle(new GramsVerticle());
-//        vertx.deployVerticle(new LoginVerticle());
+        vertx.deployVerticle(new LoginHandler());
         vertx.deployVerticle(new WebVerticle()); // using static Handler, must be after other verticle deploied.
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
     }

@@ -6,7 +6,10 @@ import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.result.UpdateResult;
 import org.bson.Document;
+
+import static com.mongodb.client.model.Filters.eq;
 
 /**
  * Created by production on 2017-04-06.
@@ -40,8 +43,7 @@ public enum Database {
 
     public void remove(String collection, Document doc)
     {
-        this.collection = mongoDatabase.getCollection(collection);
-        this.collection.deleteOne(doc);
+        mongoDatabase.getCollection(collection).deleteOne(doc);
     }
 
     public JsonArray findMany(String collection, Document searchQuery)
@@ -57,6 +59,13 @@ public enum Database {
         while(cursor.hasNext())
             jsonArray.add(cursor.next().toJson());
         return jsonArray;
+    }
+
+    public String findOne(String collection, Document searchQuery)
+    {
+        this.collection = mongoDatabase.getCollection(collection);
+        Document document = this.collection.find(searchQuery).first();
+        return document.toJson();
     }
 
 
@@ -81,6 +90,12 @@ public enum Database {
         }
         doc.append("_id", getNextSequence(collection));
         this.collection.insertOne(doc);
+    }
+
+    public int update(String collection, int id, Document updateQuery)
+    {
+        UpdateResult result = mongoDatabase.getCollection(collection).updateOne(eq("_id", id), new Document("$set", updateQuery));
+        return (int) result.getModifiedCount();
     }
 
     public Object getNextSequence(String name)

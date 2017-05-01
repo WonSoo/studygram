@@ -3,7 +3,10 @@ package kr.studygram.core;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
 import io.vertx.ext.web.Router;
+import io.vertx.ext.web.handler.BodyHandler;
+import io.vertx.ext.web.handler.CorsHandler;
 import io.vertx.ext.web.handler.StaticHandler;
+import kr.studygram.utils.database.Database;
 
 
 /**
@@ -12,12 +15,35 @@ import io.vertx.ext.web.handler.StaticHandler;
 public class WebVerticle extends AbstractVerticle {
 
     public static final String webroot = "kr.studygram.core";
+    private static Vertx vertx;
+    private static Router router;
+    private static Database database;
+
+    private void initialize()
+    {
+        vertx = getVertx();
+        router = VertxMain.getRouter();
+    }
 
     @Override
     public void start() throws Exception {
-        System.out.println("start called");
-        Vertx vertx = getVertx();
-        Router router = VertxMain.getRouter();
+        initialize();
+        router.route().handler(BodyHandler.create());
+        router.route().handler(CorsHandler.create("*")
+                .allowedMethod(io.vertx.core.http.HttpMethod.GET)
+                .allowedMethod(io.vertx.core.http.HttpMethod.POST)
+                .allowedMethod(io.vertx.core.http.HttpMethod.OPTIONS)
+                .allowedHeader("Access-Control-Request-Method")
+                .allowedHeader("Access-Control-Allow-Credentials")
+                .allowedHeader("Access-Control-Allow-Origin")
+                .allowedHeader("Access-Control-Allow-Headers")
+                .allowedHeader("Content-Type"));
+
+        //Add Handler
+        GramsHandler gramsHandler = new GramsHandler();
+        gramsHandler.start();
+        LoginHandler loginHandler = new LoginHandler();
+        loginHandler.start();
 
         router.route().handler(StaticHandler.create("webroot"));
     }
@@ -25,5 +51,21 @@ public class WebVerticle extends AbstractVerticle {
     @Override
     public void stop() throws Exception {
         System.out.println("BasicVerticle stopped");
+    }
+
+    public static Database getDatabase() {
+        return database;
+    }
+
+    public static void setDatabase(Database database) {
+        WebVerticle.database = database;
+    }
+
+    public static Router getRouter() {
+        return router;
+    }
+
+    public static void setRouter(Router router) {
+        WebVerticle.router = router;
     }
 }

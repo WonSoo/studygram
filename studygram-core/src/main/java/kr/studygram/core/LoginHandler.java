@@ -1,12 +1,10 @@
 package kr.studygram.core;
 
 import com.google.gson.Gson;
-import io.vertx.core.AbstractVerticle;
-import io.vertx.core.Future;
+import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
-import io.vertx.ext.web.handler.BodyHandler;
 import kr.studygram.content.Accounts;
 import kr.studygram.utils.database.Database;
 import org.bson.Document;
@@ -20,19 +18,18 @@ import java.net.URL;
 /**
  * Created by cynos07 on 2017-04-17.
  */
-public class LoginVerticle extends AbstractVerticle {
-    Database database;
+public class LoginHandler extends WebVerticle {
+    private Database database;
+    private Router router;
 
     private void initialize()
     {
         database=Database.getInstance();
+        router=getRouter();
     }
 
-    @Override
-    public void start(Future<Void> startFuture) throws Exception {
+    public void start() {
         initialize();
-        Router router = VertxMain.getRouter();
-        router.route().handler(BodyHandler.create());
         router.post("/api/login").handler(this::requestLogin);
     }
 
@@ -40,19 +37,20 @@ public class LoginVerticle extends AbstractVerticle {
         JsonObject json = routingContext.getBodyAsJson();
         System.out.println(json);
         String accessToken = json.getString("accessToken");
+        HttpServerResponse response = routingContext.response();
         try {
             InputStream input = new URL("https://graph.facebook.com/me?access_token="+accessToken).openStream();
             Reader reader = new InputStreamReader(input, "UTF-8");
             Accounts account = (new Gson().fromJson(reader, Accounts.class));
             if(!checkRegistered(account.getId()))
             {
-                System.out.println("in");
                 createAccount(account.getId(), account.getName());
+                response.end("registered");
             }
-            System.out.println("out");
         } catch (IOException e) {
             e.printStackTrace();
         }
+        response.end("logined");
     }
 
     private boolean checkRegistered(String id)
