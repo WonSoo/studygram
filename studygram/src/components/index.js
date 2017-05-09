@@ -1,9 +1,4 @@
-import Card from './Card';
-import CardArticle from './CardArticle';
-import CardHeader from './CardArticle';
-import CardPicture from './CardPicture';
-import CardTag from './CardTag';
-import CardTagContainer from './CardTagContainer';
+import { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Tag } from './gram';
 import Header from './Header';
 import MenuBar from './MenuBar';
 import Search from './Search';
@@ -13,4 +8,4 @@ import SearchResult from './SearchResult';
 import Slider from './Slider';
 
 
-export { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Header, MenuBar, Search, Contents, PostWriter, SearchResult, Slider}
+export { Card, CardArticle, CardHeader, CardPicture, CardTag, CardTagContainer, Header, MenuBar, Search, Contents, PostWriter, SearchResult, Slider, Tag}

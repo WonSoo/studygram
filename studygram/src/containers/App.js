@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Axios from 'axios';
+
 /* import logo from './logo.svg'; */
 /* import './App.css'; */
 import {Header, Card, Contents, PostWriter} from '../components';
@@ -18,7 +20,17 @@ class App extends Component {
                       <FacebookLogin appId="1903051689966506" autoLoad={true} fields="name,email,picture" onClick={() => {
                           console.log("callback");
                       }} callback={(response) => {
+                          console.log('callback');
                           console.log(response);
+                          if(response.accessToken) {
+                              Axios.post('http://10.156.145.184:8080/api/login', {
+                                  accessToken: response.accessToken
+                              }).then((response) => {
+                                  console.log(response);
+                              }).catch((error) => {
+                                  console.log(error);
+                              })
+                          }
                       //    console.log(response.status);
                       }}/>
                 </Contents>

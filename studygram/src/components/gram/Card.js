@@ -3,7 +3,7 @@ import CardHeader from './CardHeader';
 import CardPicture from './CardPicture';
 import CardTagContainer from './CardTagContainer';
 import CardArticle from './CardArticle';
-import sanaPic from '../img/sana.jpg'
+import sanaPic from '../../img/sana.jpg'
 
 
 const propTypes = {
