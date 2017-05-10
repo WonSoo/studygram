@@ -1,20 +1,22 @@
 import React, {Component, PropTypes} from 'react';
+import ReactDOM from 'react-dom';
 import next from '../img/next.svg'
 import Slider from './Slider';
 import Axios from 'axios';
-import Config from '../resource'
+import { Config } from '../resource';
 
 const propTypes = {};
 const defaultProps = {};
 class PostWriter extends Component {
     constructor(props) {
         super(props);
-        // this.config = new Config();
+        this.fileInput;
         this.state = {
             title: '',
             content: '',
             tagStr: '',
-            tags: []
+            tags: [],
+            selectPicture: {}
         };
 
         this.onTitleChange = this.onTitleChange.bind(this);
@@ -25,11 +27,17 @@ class PostWriter extends Component {
 
     sendPost() {
         console.log(this.state.tagStr);
-        Axios.post("http://10.156.145.184:8080/api/gram", {
-            content: this.state.content,
-            title: this.state.title,
-            tags: this.state.tags
-        })
+        let sendData = new FormData();
+        sendData.append('title', this.state.title);
+        sendData.append('content', this.state.content);
+        sendData.append('tags', this.state.tags);
+        sendData.append('image', this.fileInput.getInputDOMNode().files[0]);
+        console.log(this.fileInput.getInputDOMNode().files[0]);
+        Axios({
+            method: 'post',
+            url: `${ Config.ip }/api/gram`,
+            data: sendData
+        });
     }
 
     onContentChange(e) {
@@ -82,6 +90,7 @@ class PostWriter extends Component {
                         </div>
                         <br></br>
                         <input className="Title-Input" type="text" placeholder="#js #react #css"  value={this.state.tagStr} onChange={this.onTagChange}></input>
+                        <input className="Title-Input" type="file" ref={(ref) => { this.fileInput = ref }}></input>
                         <input type="button" placeholder="post" value={'전송'} onClick={ this.sendPost }></input>
                     </div>
                 </Slider>
