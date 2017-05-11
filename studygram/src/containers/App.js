@@ -10,6 +10,7 @@ import { Config } from '../resource';
 class App extends Component {
     constructor(props) {
         super(props);
+        this.step = 12;
         this.state = {
             gramList: [{title: 'title',
                         time: '1분전',
@@ -37,6 +38,8 @@ class App extends Component {
                         tags: ['momo', 'twice', 'gram']}],
             lastIndex: 0
         }
+
+        this.getGrams = this.getGrams.bind(this);
     }
 
     getGrams() {
@@ -45,11 +48,16 @@ class App extends Component {
             method: 'get'
         }).then((response) => {
             this.setState({
-                gramList: [...this.state.gramList, ...response]
+                gramList: [...this.state.gramList, ...response],
+                lastIndex: this.state.lastIndex + this.step
             })
         }).catch((error) => {
             console.error(error);
         });
+    }
+
+    componentWillMount() {
+        getGrams();
     }
 
     render() {
