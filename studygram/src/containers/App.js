@@ -8,18 +8,63 @@ import FacebookLogin from 'react-facebook-login';
 import { Config } from '../resource';
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            gramList: [{title: 'title',
+                        time: '1분전',
+                        content: '나는 아니야',
+                        tags: ['momo', 'twice', 'gram']},
+                        {
+                        title: 'title',
+                        time: '1분전',
+                        content: '나는 아니야',
+                        tags: ['momo', 'twice', 'gram']},
+                        {
+                        title: 'title',
+                        time: '1분전',
+                        content: '나는 아니야',
+                        tags: ['momo', 'twice', 'gram']},
+                        {
+                        title: 'title',
+                        time: '1분전',
+                        content: '나는 아니야',
+                        tags: ['momo', 'twice', 'gram']},
+                        {
+                        title: 'title',
+                        time: '1분전',
+                        content: '나는 아니야',
+                        tags: ['momo', 'twice', 'gram']}],
+            lastIndex: 0
+        }
+    }
+
+    getGrams() {
+        Axios({
+            url: `${ Config.ip }/api/gram/${ this.state.lastIndex }`,
+            method: 'get'
+        }).then((response) => {
+            this.setState({
+                gramList: [...this.state.gramList, ...response]
+            })
+        }).catch((error) => {
+            console.error(error);
+        });
+    }
+
     render() {
       console.log(`${Config.ip}`);
-
+        const convertToCard = (cardArr) => {
+            return cardArr.map((cardData, i) => {
+                return (<Card key={i} name={cardData.name} title={cardData.title} time={cardData.time} content={cardData.content} tags={cardData.tags}/>)
+            });
+        }
         return (
             <div className="App">
                 <Header></Header>
                 <Contents>
-                    <PostWriter></PostWriter>
-                    <Card></Card>
-                    <Card></Card>
-                    <Card></Card>
-                    <Card></Card>
+                      <PostWriter></PostWriter>
+                      {convertToCard(this.state.gramList)}
                       <FacebookLogin appId={ Config.fbAppId } autoLoad={true} fields="name,email,picture" onClick={() => {
                           console.log("callback");
                       }} callback={(response) => {
