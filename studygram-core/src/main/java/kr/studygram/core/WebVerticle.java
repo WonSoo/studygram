@@ -2,10 +2,11 @@ package kr.studygram.core;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Vertx;
+import io.vertx.ext.auth.AuthProvider;
+import io.vertx.ext.auth.oauth2.providers.FacebookAuth;
 import io.vertx.ext.web.Router;
-import io.vertx.ext.web.handler.BodyHandler;
-import io.vertx.ext.web.handler.CorsHandler;
-import io.vertx.ext.web.handler.StaticHandler;
+import io.vertx.ext.web.handler.*;
+import io.vertx.ext.web.sstore.LocalSessionStore;
 import kr.studygram.utils.database.Database;
 
 
@@ -14,21 +15,37 @@ import kr.studygram.utils.database.Database;
  */
 public class WebVerticle extends AbstractVerticle {
 
-    public static final String webroot = "kr.studygram.core";
     private static Vertx vertx;
     private static Router router;
     private static Database database;
-
+    private static AuthProvider authProvider;
     private void initialize()
     {
         vertx = getVertx();
         router = VertxMain.getRouter();
+        authProvider = FacebookAuth.create(vertx, "1903051689966506", "f6d50c89a4acba8694c3587e4473b588");
     }
 
     @Override
     public void start() throws Exception {
         initialize();
         router.route().handler(BodyHandler.create());
+        router.route().handler(CookieHandler.create());
+        router.route().handler(SessionHandler.create(LocalSessionStore.create(vertx)));
+        router.route().handler(UserSessionHandler.create(authProvider));
+        AuthHandler basicAuthHandler = BasicAuthHandler.create(authProvider);
+        AuthHandler redirectAuthHandler = RedirectAuthHandler.create(authProvider);
+        // All requests to paths starting with '/private/' will be protected
+        router.route("/private/*").handler(redirectAuthHandler);
+        // Handle the actual login
+        // One of your pages must POST form login data
+        router.post("/login").handler(FormLoginHandler.create(authProvider));
+        router.route("/logout").handler(context -> {
+            context.clearUser();
+            // Redirect back to the index page
+            context.response().putHeader("location", "/").setStatusCode(302).end();
+        });
+
         router.route().handler(CorsHandler.create("*")
                 .allowedMethod(io.vertx.core.http.HttpMethod.GET)
                 .allowedMethod(io.vertx.core.http.HttpMethod.POST)

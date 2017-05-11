@@ -1,12 +1,12 @@
 package kr.studygram.utils.database;
 
-import com.google.gson.JsonArray;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.result.UpdateResult;
+import io.vertx.core.json.JsonArray;
 import org.bson.Document;
 
 import static com.mongodb.client.model.Filters.eq;
@@ -38,7 +38,6 @@ public enum Database {
         insertDoc.append("seq", 0);
 
         mongoDatabase.getCollection("counters").insertOne(insertDoc);
-
     }
 
     public void remove(String collection, Document doc)
@@ -67,7 +66,6 @@ public enum Database {
         Document document = this.collection.find(searchQuery).first();
         return document.toJson();
     }
-
 
     public boolean isExist(String collection, String field, String searchKey)
     {
@@ -107,7 +105,6 @@ public enum Database {
 
         return result.get("seq");
     }
-
 
     public static Database getInstance()
     {

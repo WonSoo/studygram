@@ -1,8 +1,10 @@
 package kr.studygram.core;
 
-import com.google.gson.JsonArray;
+import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpServerResponse;
+import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import io.vertx.ext.web.FileUpload;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import kr.studygram.utils.database.Database;
@@ -24,9 +26,15 @@ public class GramsHandler extends WebVerticle {
         Initialize();
         router.get("/api/gram/:lastIndex").handler(this::getGramMany);
         router.get("/api/gramOne/:id").handler(this::getGramOne);
+        router.get("/api/gramImage/:filename").handler(this::getGramImage);
         router.post("/api/gram").handler(this::addGram);
         router.put("/api/gram/:id").handler(this::updateGram);
         router.delete("/api/gram/:id").handler(this::deleteGram);
+    }
+
+    private void getGramImage(RoutingContext routingContext) {
+        String filename = routingContext.pathParam("filename");
+        routingContext.response().sendFile("file-uploads/"+filename);
     }
 
     private void getGramMany(RoutingContext routingContext) {
@@ -68,8 +76,31 @@ public class GramsHandler extends WebVerticle {
 
     private void addGram(RoutingContext routingContext) {
         System.out.println("addGram");
-        JsonObject json = routingContext.getBodyAsJson();
-        database.insert("grams", new Document().parse(json.toString()));
+        MultiMap attributes = routingContext.request().formAttributes();
+        // do something with the form data
+        for(FileUpload fileUpload : routingContext.fileUploads()){
+            System.out.println("fileName: "+fileUpload.fileName());
+            System.out.println("name: "+fileUpload.name());
+            System.out.println("uploadedFileName: "+fileUpload.uploadedFileName());
+            System.out.println("charSet: "+fileUpload.charSet());
+            System.out.println("contentTransferEncoding: "+fileUpload.contentTransferEncoding());
+            System.out.println("contentType: "+fileUpload.contentType());
+            System.out.println("size: "+fileUpload.size());
+
+            routingContext.response().sendFile(fileUpload.uploadedFileName());
+        }
+        System.out.println("attributes.entries(): "+attributes.entries());
+        System.out.println("attributes.get(): "+attributes.get("title"));
+        System.out.println("attributes.getAll(): "+attributes.getAll("title"));
+        JsonObject json = new JsonObject();
+        json.put("title", attributes.get("title"));
+        json.put("content", attributes.get("content"));
+        json.put("content", attributes.get("content"));
+        json.put("content", attributes.getAll("tags"));
+//        json.put("writer", session)
+//        System.out.println(json);
+//
+//        database.insert("grams", new Document().parse(json.toString()));
     }
 
     private void deleteGram(RoutingContext routingContext) {
