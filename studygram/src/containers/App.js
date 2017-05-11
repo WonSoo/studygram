@@ -57,7 +57,7 @@ class App extends Component {
     }
 
     componentWillMount() {
-        getGrams();
+        this.getGrams();
     }
 
     render() {
