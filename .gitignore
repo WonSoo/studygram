@@ -1,0 +1,15 @@
+
+/.vertx/
+/.idea/
+/logs/
+/out/
+/gradle/
+<<<<<<< HEAD
+/.gradle/
+=======
+/.gradle/
+build/
+conf/
+/studygram-utils/src/main/resources/conf/
+/studygram-utils/src/main/resources/log4j2.xml
+>>>>>>> origin/server

@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a89f4182-1e2e-49ff-94e7-abc12bfe8620" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/Card.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/CardArticle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/CardHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/CardPicture.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/CardTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/CardTagContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/components/Tag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram/src/logo.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram/package.json" afterPath="$PROJECT_DIR$/studygram/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram/scripts/start.js" afterPath="$PROJECT_DIR$/studygram/scripts/start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram/src/components/PostWriter.js" afterPath="$PROJECT_DIR$/studygram/src/components/PostWriter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram/src/components/index.js" afterPath="$PROJECT_DIR$/studygram/src/components/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram/src/containers/App.js" afterPath="$PROJECT_DIR$/studygram/src/containers/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram/src/index.css" afterPath="$PROJECT_DIR$/studygram/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,14 +21,14 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studygram/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="319">
               <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostWriter.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostWriter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/studygram/src/components/PostWriter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -50,6 +36,16 @@
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,11 +75,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/studygram/src/index.css" />
         <option value="$PROJECT_DIR$/studygram/src/components/PostWriter.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -99,7 +101,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectView">
@@ -117,6 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -130,63 +134,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studygram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,6 +144,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,10 +159,270 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
@@ -220,12 +430,6 @@
       <working-dir value="" />
       <envs />
       <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -237,13 +441,76 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="studygram" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -262,17 +529,10 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
   </component>
@@ -288,23 +548,38 @@
       <updated>1493689907883</updated>
       <workItem from="1493689910189" duration="2700000" />
       <workItem from="1493806186865" duration="74000" />
+      <workItem from="1494500625866" duration="112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2774000" />
+    <option name="totallyTimeSpent" value="2886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24298376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24622357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -313,7 +588,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +601,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/studygram/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram/src/components/PostWriter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/studygram/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -363,7 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/studygram/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="319">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
@@ -431,183 +739,7 @@
           </nodes>
           <notes />
           <edges>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="4.831174698006237" y="-1.2883132528016858" />
-              <point x="4.83117469800623" y="-1.2883132528016574" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/src/App.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/src/img/list.svg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="5.168141705498044" y="0.0" />
-              <point x="5.168141705498044" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/img/sana.jpg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/node_modules/react-dom/index.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="7.942323500923578" y="0.0" />
-              <point x="7.942323500923571" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react-facebook-login/dist/facebook-login.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;">
-              <point x="0.0" y="10.02828696659276" />
-              <point x="0.0" y="10.028286966592702" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="-3.587139189879281" y="-3.4831641408972587" />
-              <point x="-3.5871391898792524" y="-3.4831641408972303" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Footer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="-0.2373746269066146" y="-4.994362150114966" />
-              <point x="-0.2373746269066075" y="-4.994362150114966" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="4.914312169051051" y="0.9217027205756949" />
-              <point x="4.914312169051051" y="0.9217027205757518" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/img/next.svg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="-0.7862128244762232" y="4.937800056161564" />
-              <point x="-0.786212824476209" y="4.937800056161564" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="-4.983970214664115" y="0.40005112090949524" />
-              <point x="-4.983970214664112" y="0.40005112090949524" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="4.181543798060261" y="2.741293757499193" />
-              <point x="4.181543798060247" y="2.7412937574991645" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/resource/config.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;" target="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;">
-              <point x="0.0" y="-20.018554657037896" />
-              <point x="0.0" y="-20.018554657037896" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;" target="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;">
-              <point x="4.865789217421451" y="-1.1506933960118317" />
-              <point x="4.865789217421423" y="-1.1506933960118317" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -615,31 +747,19 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="./logo.svg">
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/src/img/list.svg">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/src/img/account.svg">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/src/App.css">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -647,35 +767,51 @@
               <point x="1.740350020979804" y="4.687342723172208" />
               <point x="1.7403500209797897" y="4.687342723172236" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="0.0" y="-5.750758277557566" />
-              <point x="10.121048461124282" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/node_modules/react-dom/index.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
               <point x="7.25615272329901" y="0.0" />
               <point x="7.256152723299039" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;">
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="Link;">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;">
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;">
+              <point x="4.865789217421451" y="-1.1506933960118317" />
+              <point x="4.865789217421423" y="-1.1506933960118317" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-0.7862128244762232" y="4.937800056161564" />
+              <point x="-0.786212824476209" y="4.937800056161564" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -683,63 +819,7 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="4.669124858678856" y="-1.7886511828937728" />
-              <point x="4.669124858678856" y="-1.7886511828937444" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="0.0" y="-5.041856799193226" />
-              <point x="0.0" y="-5.041856799193226" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/App.css">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="$PROJECT_DIR$/studygram/src/components/Footer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="Link;">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="0.0" y="5.287966973597548" />
-              <point x="0.0" y="5.28796697359752" />
-            </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -747,13 +827,241 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
-              <point x="-4.464268777314942" y="-2.2517336174359457" />
-              <point x="-4.464268777314928" y="-2.2517336174359173" />
+            <edge source="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.831174698006237" y="-1.2883132528016858" />
+              <point x="4.83117469800623" y="-1.2883132528016574" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/App.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="7.942323500923578" y="0.0" />
+              <point x="7.942323500923571" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-3.587139189879281" y="-3.4831641408972587" />
+              <point x="-3.5871391898792524" y="-3.4831641408972303" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/node_modules/react-dom/index.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;" target="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/img/next.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Footer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-0.2373746269066146" y="-4.994362150114966" />
+              <point x="-0.2373746269066075" y="-4.994362150114966" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="5.287966973597548" />
+              <point x="0.0" y="5.28796697359752" />
             </edge>
             <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.669124858678856" y="-1.7886511828937728" />
+              <point x="4.669124858678856" y="-1.7886511828937444" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="./logo.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/node_modules/react-dom/index.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;" target="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="-5.041856799193226" />
+              <point x="0.0" y="-5.041856799193226" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-4.464268777314942" y="-2.2517336174359457" />
+              <point x="-4.464268777314928" y="-2.2517336174359173" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="-5.750758277557566" />
+              <point x="10.121048461124282" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;">
+              <point x="0.0" y="10.02828696659276" />
+              <point x="0.0" y="10.028286966592702" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/img/sana.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/src/img/account.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/resource/config.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;">
+              <point x="0.0" y="-20.018554657037896" />
+              <point x="0.0" y="-20.018554657037896" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="5.168141705498044" y="0.0" />
+              <point x="5.168141705498044" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.914312169051051" y="0.9217027205756949" />
+              <point x="4.914312169051051" y="0.9217027205757518" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.181543798060261" y="2.741293757499193" />
+              <point x="4.181543798060247" y="2.7412937574991645" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react-facebook-login/dist/facebook-login.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-4.983970214664115" y="0.40005112090949524" />
+              <point x="-4.983970214664112" y="0.40005112090949524" />
             </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="0.3071690214547358" x="265.0" y="947.0" />
@@ -773,6 +1081,14 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
