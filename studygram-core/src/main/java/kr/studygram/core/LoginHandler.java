@@ -1,8 +1,10 @@
 package kr.studygram.core;
 
+import com.google.common.net.HttpHeaders;
 import com.google.gson.Gson;
+import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpServerResponse;
-import io.vertx.core.json.JsonObject;
+import io.vertx.ext.web.Cookie;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import kr.studygram.content.Accounts;
@@ -30,13 +32,31 @@ public class LoginHandler extends WebVerticle {
 
     public void start() {
         initialize();
+        router.post("/test").handler(this::test);
         router.post("/api/login").handler(this::requestLogin);
     }
 
+    private void test(RoutingContext routingContext) {
+        MultiMap attributes = routingContext.request().formAttributes();
+        System.out.println(attributes.get("username"));
+        System.out.println(attributes.get("passwd"));
+    }
+
     private void requestLogin(RoutingContext routingContext) {
-        JsonObject json = routingContext.getBodyAsJson();
-        System.out.println(json);
-        String accessToken = json.getString("accessToken");
+        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_HEADERS, "Cookie, Origin, X-Requested-With, Content-Type");
+        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "POST, PUT, PATCH, GET, DELETE, OPTIONS, HEAD, CONNECT");
+        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080/*");
+        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080/");
+        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
+        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080");
+//        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
+//        JsonObject json = routingContext.getBodyAsJson();
+//        System.out.println(json);
+//        String accessToken = json.getString("accessToken");
+        Cookie cookie = routingContext.getCookie("accessToken");
+        System.out.println(cookie);
+        String accessToken = cookie.getValue();
+
         HttpServerResponse response = routingContext.response();
         try {
             InputStream input = new URL("https://graph.facebook.com/me?access_token="+accessToken).openStream();
@@ -46,6 +66,7 @@ public class LoginHandler extends WebVerticle {
             {
                 createAccount(account.getId(), account.getName());
                 response.end("registered");
+                routingContext.next();
             }
         } catch (IOException e) {
             e.printStackTrace();

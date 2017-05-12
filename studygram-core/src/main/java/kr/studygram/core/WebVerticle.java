@@ -18,25 +18,29 @@ public class WebVerticle extends AbstractVerticle {
     private static Vertx vertx;
     private static Router router;
     private static Database database;
-    private static AuthProvider authProvider;
+//    private static AuthProvider authProvider;
     private void initialize()
     {
         vertx = getVertx();
         router = VertxMain.getRouter();
-        authProvider = FacebookAuth.create(vertx, "1903051689966506", "f6d50c89a4acba8694c3587e4473b588");
+//        authProvider = FacebookAuth.create(vertx, "1903051689966506", "f6d50c89a4acba8694c3587e4473b588");
     }
 
     @Override
     public void start() throws Exception {
         initialize();
-        router.route().handler(BodyHandler.create());
         router.route().handler(CookieHandler.create());
+        router.route().handler(BodyHandler.create());
         router.route().handler(SessionHandler.create(LocalSessionStore.create(vertx)));
+
+        AuthProvider authProvider = FacebookAuth.create(vertx, "1903051689966506", "f6d50c89a4acba8694c3587e4473b588");
         router.route().handler(UserSessionHandler.create(authProvider));
         AuthHandler basicAuthHandler = BasicAuthHandler.create(authProvider);
-        AuthHandler redirectAuthHandler = RedirectAuthHandler.create(authProvider);
+        AuthHandler redirectAuthHandler = RedirectAuthHandler.create(authProvider, "/loginpage.html");
         // All requests to paths starting with '/private/' will be protected
         router.route("/private/*").handler(redirectAuthHandler);
+        router.route("/private/*").handler(StaticHandler.create().setCachingEnabled(false).setWebRoot("private"));
+
         // Handle the actual login
         // One of your pages must POST form login data
         router.post("/login").handler(FormLoginHandler.create(authProvider));

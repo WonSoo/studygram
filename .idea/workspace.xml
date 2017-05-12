@@ -2,12 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a89f4182-1e2e-49ff-94e7-abc12bfe8620" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/loginpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/css/main.47861912.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/css/main.47861912.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/css/main.c5a26742.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/css/main.c5a26742.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.12201d5d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.12201d5d.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.8fe95b33.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.8fe95b33.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/media/next.8fed8fd3.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___kr_studygram___studygram_1_0_SNAPSHOT_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___kr_studygram___studygram_1_0_SNAPSHOT_war__exploded_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_annotations_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_18_2_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reflections_reflections_0_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/studygram-core/build/classes/main/kr/studygram/core/WebVerticle.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/build/classes/main/kr/studygram/core/LoginHandler.class" afterPath="$PROJECT_DIR$/studygram-core/build/classes/main/kr/studygram/core/LoginHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-core/studygram-core_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram-utils/studygram-utils_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/studygram_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/studygram_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/studygram.iml" afterPath="$PROJECT_DIR$/.idea/studygram.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/webroot/asset-manifest.json" afterPath="$PROJECT_DIR$/studygram-core/build/resources/main/webroot/asset-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/build/resources/main/webroot/index.html" afterPath="$PROJECT_DIR$/studygram-core/build/resources/main/webroot/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/LoginHandler.java" afterPath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/LoginHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/WebVerticle.java" afterPath="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/WebVerticle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/asset-manifest.json" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/asset-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index.html" afterPath="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/studygram-utils/.gradle/" />
+    <ignored path="$PROJECT_DIR$/studygram-utils/build/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/studygram-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/studygram-core/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,42 +57,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="studygram" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studygram/package.json">
+      <file leaf-file-name="VertxMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/VertxMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostWriter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studygram/src/components/PostWriter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+            <state relative-caret-position="-3">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studygram/src/index.css">
+      <file leaf-file-name="main.12201d5d.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.12201d5d.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -60,10 +106,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/studygram/src/App.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
+              <caret line="0" column="346" lean-forward="false" selection-start-line="0" selection-start-column="340" selection-end-line="0" selection-end-column="346" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/LoginHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web/3.4.1/a1c075bcd46221d98a233dd82b55603233d1842a/vertx-web-3.4.1-sources.jar!/io/vertx/ext/web/impl/RouteImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="217" column="5" lean-forward="false" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebVerticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/WebVerticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GramsHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/GramsHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-282">
+              <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacebookAuth.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-oauth2/3.4.1/123873d1900f287ace91e82367658f5f4d49618a/vertx-auth-oauth2-3.4.1-sources.jar!/io/vertx/ext/auth/oauth2/providers/FacebookAuth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginpage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studygram-core/build/resources/main/webroot/loginpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-261">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -72,10 +188,624 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cookie</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Users\production\.gradle\wrapper\dists\gradle-3.1-all\ejgglywf033yp6s4x8ahmgm74\gradle-3.1" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.1" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="studygram" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":studygram-utils" />
+                <option name="path" value="$PROJECT_DIR$/studygram-utils" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="studygram" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":studygram-core" />
+                <option name="path" value="$PROJECT_DIR$/studygram-core" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'studygram'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'studygram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'studygram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'studygram'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'studygram' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'studygram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'studygram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'studygram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/studygram-core">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':studygram-core'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':studygram-core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':studygram-core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':studygram-core'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':studygram-core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':studygram-core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':studygram-core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':studygram-core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-core" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/studygram-utils">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':studygram-utils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':studygram-utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':studygram-utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':studygram-utils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':studygram-utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':studygram-utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':studygram-utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':studygram-utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/studygram-utils" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="7469484494326" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/studygram-core">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/studygram-core" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/studygram-utils">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/studygram-utils" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="studygram-utils" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/task-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-base-services-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-base-services-groovy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-cli-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-core-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-docs-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-installation-beacon-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-jvm-services-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-launcher-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-logging-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-messaging-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-model-core-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-model-groovy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-open-api-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-process-services-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-resources-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-script-kotlin-0.3.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-tooling-api-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-ui-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/gradle-wrapper-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/groovy-all-2.4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-announce-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-antlr-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-build-comparison-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-build-init-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-code-quality-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-composite-builds-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-dependency-management-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-diagnostics-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ear-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ide-play-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-ivy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-jacoco-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-javascript-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-jetty-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-groovy-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-java-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-jvm-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-language-scala-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-maven-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-osgi-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-base-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-jvm-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-platform-play-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugin-development-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugin-use-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-plugins-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-publish-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-reporting-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-http-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-s3-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-resources-sftp-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-scala-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-signing-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-task-cache-http-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-test-kit-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-testing-native-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/gradle-tooling-api-builders-3.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.1-all/ejgglywf033yp6s4x8ahmgm74/gradle-3.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -86,6 +816,11 @@
         <option value="$PROJECT_DIR$/studygram/src/index.css" />
         <option value="$PROJECT_DIR$/studygram/src/components/PostWriter.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index.html" />
+        <option value="$PROJECT_DIR$/studygram-core/src/main/resources/webroot/loginpage.html" />
+        <option value="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/VertxMain.java" />
+        <option value="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/WebVerticle.java" />
+        <option value="$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/LoginHandler.java" />
       </list>
     </option>
   </component>
@@ -99,10 +834,13 @@
     <handled-path value="$PROJECT_DIR$/studygram/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="736" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -119,8 +857,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -134,17 +870,302 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studygram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DSM-Dormitory-System" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vertx-examples-master" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\production\Documents\GitHub\studygram\studygram-core\src\main\resources\webroot" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,7 +1179,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.VertxMain">
+    <configuration default="false" name="VertxMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="kr.studygram.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="kr.studygram.core.VertxMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="studygram-core_main" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -381,6 +1422,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -535,6 +1577,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.VertxMain" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.VertxMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -549,44 +1599,45 @@
       <workItem from="1493689910189" duration="2700000" />
       <workItem from="1493806186865" duration="74000" />
       <workItem from="1494500625866" duration="112000" />
+      <workItem from="1494510198894" duration="16391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2886000" />
+    <option name="totallyTimeSpent" value="19301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1364" height="736" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.338843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24622357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25727412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -600,12 +1651,432 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram/package.json" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/components/PostWriter.js" />
+    <entry file="file://$PROJECT_DIR$/studygram/package.json" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/components/PostWriter.js" />
+    <entry file="file://$PROJECT_DIR$/studygram/package.json" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/studygram/src/App.css" />
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/studygram/src</OriginalElement>
+          <nodes>
+            <node x="1414.0" y="1175.0">$PROJECT_DIR$/studygram/src/App.css</node>
+            <node x="1179.0" y="1542.0">$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;</node>
+            <node x="565.0" y="658.0">$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;</node>
+            <node x="700.0" y="1576.0">$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;</node>
+            <node x="1499.0" y="1245.0">$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;</node>
+            <node x="1195.0" y="1239.0">$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;</node>
+            <node x="1375.0" y="970.0">$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;</node>
+            <node x="1344.0" y="713.0">$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;</node>
+            <node x="478.0" y="1193.0">$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;</node>
+            <node x="877.0" y="1487.0">$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;</node>
+            <node x="396.0" y="1053.0">$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;</node>
+            <node x="576.0" y="913.0">$PROJECT_DIR$/studygram/src/components/Footer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#React#7;</node>
+            <node x="1078.0" y="907.0">$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;</node>
+            <node x="1095.0" y="510.0">$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;</node>
+            <node x="579.0" y="251.0">$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;</node>
+            <node x="314.0" y="1372.0">$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;</node>
+            <node x="849.0" y="912.0">$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;</node>
+            <node x="946.0" y="330.0">$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;</node>
+            <node x="578.0" y="1413.0">$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;</node>
+            <node x="737.0" y="518.0">$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;</node>
+            <node x="768.0" y="1172.0">$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;</node>
+            <node x="628.0" y="0.0">$PROJECT_DIR$/studygram/src/img/account.svg</node>
+            <node x="0.0" y="1562.0">$PROJECT_DIR$/studygram/src/resource/config.js</node>
+            <node x="206.0" y="294.0">$PROJECT_DIR$/studygram/node_modules/react-facebook-login/dist/facebook-login.js</node>
+            <node x="988.0" y="1811.0">$PROJECT_DIR$/studygram/src/index.css</node>
+            <node x="164.0" y="1161.0">$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts</node>
+            <node x="935.0" y="1324.0">$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;</node>
+            <node x="786.0" y="1806.0">$PROJECT_DIR$/studygram/node_modules/react-dom/index.js</node>
+            <node x="42.0" y="554.0">$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;</node>
+            <node x="1416.0" y="1819.0">Link;</node>
+            <node x="1052.0" y="675.0">$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;</node>
+            <node x="859.0" y="155.0">$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;</node>
+            <node x="1072.0" y="156.0">$PROJECT_DIR$/studygram/src/img/list.svg</node>
+            <node x="288.0" y="1784.0">$PROJECT_DIR$/studygram/src/img/next.svg</node>
+            <node x="925.0" y="1075.0">$PROJECT_DIR$/studygram/node_modules/react/react.js</node>
+            <node x="1817.0" y="1538.0">$PROJECT_DIR$/studygram/src/img/sana.jpg</node>
+            <node x="1227.0" y="1862.0">./logo.svg</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/src/img/list.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/src/App.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="1.740350020979804" y="4.687342723172208" />
+              <point x="1.7403500209797897" y="4.687342723172236" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="7.25615272329901" y="0.0" />
+              <point x="7.256152723299039" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="Link;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;">
+              <point x="4.865789217421451" y="-1.1506933960118317" />
+              <point x="4.865789217421423" y="-1.1506933960118317" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-0.7862128244762232" y="4.937800056161564" />
+              <point x="-0.786212824476209" y="4.937800056161564" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Footer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/src/index.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.831174698006237" y="-1.2883132528016858" />
+              <point x="4.83117469800623" y="-1.2883132528016574" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/App.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="7.942323500923578" y="0.0" />
+              <point x="7.942323500923571" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-3.587139189879281" y="-3.4831641408972587" />
+              <point x="-3.5871391898792524" y="-3.4831641408972303" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/node_modules/react-dom/index.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;" target="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/axios/index.d.ts">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/img/next.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;" target="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardPicture.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardPicture.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Footer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Footer.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-0.2373746269066146" y="-4.994362150114966" />
+              <point x="-0.2373746269066075" y="-4.994362150114966" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Contents.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Contents.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="5.287966973597548" />
+              <point x="0.0" y="5.28796697359752" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.669124858678856" y="-1.7886511828937728" />
+              <point x="4.669124858678856" y="-1.7886511828937444" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;" target="./logo.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/index.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#ReactDOM#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/index.js#index.css#97;" target="$PROJECT_DIR$/studygram/node_modules/react-dom/index.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/index.js#App#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/index.js#Login#32;" target="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardHeader.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardHeader.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="-5.041856799193226" />
+              <point x="0.0" y="-5.041856799193226" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;" target="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Header.js#App.css#219;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#MenuBar#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Header.js#Search#93;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-4.464268777314942" y="-2.2517336174359457" />
+              <point x="-4.464268777314928" y="-2.2517336174359173" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="0.0" y="-5.750758277557566" />
+              <point x="10.121048461124282" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;">
+              <point x="0.0" y="10.02828696659276" />
+              <point x="0.0" y="10.028286966592702" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/img/sana.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/src/img/account.svg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/PostWriter.js#Axios#124;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Config#151;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#Slider#93;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/PostWriter.js#next#58;" target="$PROJECT_DIR$/studygram/src/resource/config.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/MenuBar.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#account#96;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/MenuBar.js#list#60;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/gram/index.js#Card#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardArticle#34;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardHeader#75;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardPicture#115;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTag#156;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#CardTagContainer#189;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/index.js#Tag#240;">
+              <point x="0.0" y="-20.018554657037896" />
+              <point x="0.0" y="-20.018554657037896" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/SearchResult.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/SearchResult.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/react.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Card.js#CardArticle#191;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardHeader#60;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardPicture#99;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#CardTagContainer#140;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Card.js#sanaPic#232;" target="$PROJECT_DIR$/studygram/src/components/gram/CardArticle.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardArticle.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/App.test.js#App#68;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.test.js#ReactDOM#34;" target="$PROJECT_DIR$/studygram/src/App.js#App.css#73;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#Link#102;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/App.js#logo#49;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/Tag.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/Tag.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="5.168141705498044" y="0.0" />
+              <point x="5.168141705498044" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/Search.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Search.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.914312169051051" y="0.9217027205756949" />
+              <point x="4.914312169051051" y="0.9217027205757518" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/Login.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/Login.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="4.181543798060261" y="2.741293757499193" />
+              <point x="4.181543798060247" y="2.7412937574991645" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/containers/App.js#Axios#47;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Card#147;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Contents#153;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#FacebookLogin#204;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#Header#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#PostWriter#163;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/containers/App.js#React#7;" target="$PROJECT_DIR$/studygram/node_modules/react-facebook-login/dist/facebook-login.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/index.js#Card#9;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardArticle#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardHeader#28;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardPicture#40;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTag#53;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#CardTagContainer#62;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Contents#203;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Header#108;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#MenuBar#139;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#PostWriter#238;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Search#172;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#SearchResult#277;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Slider#320;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/index.js#Tag#80;" target="$PROJECT_DIR$/studygram/src/components/Slider.js#Component#15;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#PropTypes#26;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/Slider.js#React#7;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/studygram/src/components/gram/CardTagContainer.js#Component#16;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#PropTypes#27;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#React#7;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/src/components/gram/CardTagContainer.js#Tag#60;" target="$PROJECT_DIR$/studygram/node_modules/react/lib/React.js#Component#1990;C:/Users/dsm_024/Documents/GitHub/studygram/studygram/node_modules/react/lib/React.js#PropTypes#2181;">
+              <point x="-4.983970214664115" y="0.40005112090949524" />
+              <point x="-4.983970214664112" y="0.40005112090949524" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.3071690214547358" x="265.0" y="947.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram/src/components/PostWriter.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/studygram/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +2084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +2091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,9 +2098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1508">
           <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +2105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +2112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +2119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,9 +2126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,7 +2133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +2140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +2147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,16 +2535,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.470b9036.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="0" column="1489" lean-forward="false" selection-start-line="0" selection-start-column="1489" selection-end-line="0" selection-end-column="1489" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/loginpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/build/resources/main/webroot/loginpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-auth-oauth2/3.4.1/123873d1900f287ace91e82367658f5f4d49618a/vertx-auth-oauth2-3.4.1-sources.jar!/io/vertx/ext/auth/oauth2/providers/FacebookAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web/3.4.1/a1c075bcd46221d98a233dd82b55603233d1842a/vertx-web-3.4.1-sources.jar!/io/vertx/ext/web/impl/RouteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="217" column="5" lean-forward="false" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="346" lean-forward="false" selection-start-line="0" selection-start-column="340" selection-end-line="0" selection-end-column="346" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/resources/webroot/static/js/main.12201d5d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/VertxMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/GramsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="78" column="8" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/WebVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studygram-core/src/main/java/kr/studygram/core/LoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
           <folding />
         </state>
       </provider>
