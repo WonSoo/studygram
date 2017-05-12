@@ -60,6 +60,13 @@ class App extends Component {
         this.getGrams();
     }
 
+    setCookie(cname, cvalue, exdays) {
+        let d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
     render() {
       console.log(`${Config.ip}`);
         const convertToCard = (cardArr) => {
@@ -74,14 +81,11 @@ class App extends Component {
                       <PostWriter></PostWriter>
                       {convertToCard(this.state.gramList)}
                       <FacebookLogin appId={ Config.fbAppId } autoLoad={true} fields="name,email,picture" onClick={() => {
-                          console.log("callback");
                       }} callback={(response) => {
-                          console.log('callback');
+                          this.setCookie('accessToken', response.accessToken, 1);
                           console.log(response);
                           if(response.accessToken) {
-                              Axios.post(`${ Config.ip }/api/login`, {
-                                  accessToken: response.accessToken
-                              }).then((response) => {
+                              Axios.post(`${ Config.ip }/api/login`).then((response) => {
                                   console.log(response);
                               }).catch((error) => {
                                   console.log(error);
