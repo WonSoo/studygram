@@ -6,7 +6,9 @@ import io.vertx.ext.auth.AuthProvider;
 import io.vertx.ext.auth.oauth2.providers.FacebookAuth;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.*;
+import io.vertx.ext.web.sstore.ClusteredSessionStore;
 import io.vertx.ext.web.sstore.LocalSessionStore;
+import io.vertx.ext.web.sstore.SessionStore;
 import kr.studygram.utils.database.Database;
 
 
@@ -18,12 +20,10 @@ public class WebVerticle extends AbstractVerticle {
     private static Vertx vertx;
     private static Router router;
     private static Database database;
-//    private static AuthProvider authProvider;
     private void initialize()
     {
         vertx = getVertx();
         router = VertxMain.getRouter();
-//        authProvider = FacebookAuth.create(vertx, "1903051689966506", "f6d50c89a4acba8694c3587e4473b588");
     }
 
     @Override
@@ -31,6 +31,7 @@ public class WebVerticle extends AbstractVerticle {
         initialize();
         router.route().handler(CookieHandler.create());
         router.route().handler(BodyHandler.create());
+        SessionStore store = ClusteredSessionStore.create(vertx);
         router.route().handler(SessionHandler.create(LocalSessionStore.create(vertx)));
 
         AuthProvider authProvider = FacebookAuth.create(vertx, "1903051689966506", "f6d50c89a4acba8694c3587e4473b588");

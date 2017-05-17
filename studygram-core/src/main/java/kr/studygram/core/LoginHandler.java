@@ -2,11 +2,12 @@ package kr.studygram.core;
 
 import com.google.common.net.HttpHeaders;
 import com.google.gson.Gson;
-import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpServerResponse;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Cookie;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
+import io.vertx.ext.web.Session;
 import kr.studygram.content.Accounts;
 import kr.studygram.utils.database.Database;
 import org.bson.Document;
@@ -32,14 +33,7 @@ public class LoginHandler extends WebVerticle {
 
     public void start() {
         initialize();
-        router.post("/test").handler(this::test);
         router.post("/api/login").handler(this::requestLogin);
-    }
-
-    private void test(RoutingContext routingContext) {
-        MultiMap attributes = routingContext.request().formAttributes();
-        System.out.println(attributes.get("username"));
-        System.out.println(attributes.get("passwd"));
     }
 
     private void requestLogin(RoutingContext routingContext) {
@@ -50,12 +44,10 @@ public class LoginHandler extends WebVerticle {
         routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
         routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080");
 //        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
-//        JsonObject json = routingContext.getBodyAsJson();
-//        System.out.println(json);
-//        String accessToken = json.getString("accessToken");
-        Cookie cookie = routingContext.getCookie("accessToken");
-        System.out.println(cookie);
-        String accessToken = cookie.getValue();
+
+        JsonObject json = routingContext.getBodyAsJson();
+        System.out.println(json);
+        String accessToken = json.getString("accessToken");
 
         HttpServerResponse response = routingContext.response();
         try {
@@ -68,9 +60,16 @@ public class LoginHandler extends WebVerticle {
                 response.end("registered");
                 routingContext.next();
             }
+            Session session = routingContext.session();
+            session.put(accessToken,account.getId());
+            Cookie cookie = Cookie.cookie("login_session", session.id());
+            cookie.setPath("/");
+            routingContext.addCookie(cookie);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        response.setChunked(true);
         response.end("logined");
     }
 
