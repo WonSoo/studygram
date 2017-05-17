@@ -2,9 +2,10 @@ import React, { Component, PropTypes } from 'react';
 import Tag from './Tag';
 
 const propTypes = {
-    tags: React.PropTypes.array
+    tags: React.PropTypes.string
 };
 const defaultProps = {
+    tags: ["이수"]
 };
 class CardTagContainer extends Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class CardTagContainer extends Component {
         }
         return(
             <div className="Tag-Container-Div">
-                {convertToTag(this.props.tags)}
+                {convertToTag(JSON.parse(this.props.tags))}
             </div>
         );
     }

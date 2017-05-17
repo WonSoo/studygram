@@ -10,7 +10,7 @@ class Tag extends Component {
     render() {
         return(
             <div className="Card-Tag-Div">
-                <a className="Card-Tag" href="">#{this.props.name}</a>
+                <a className="Card-Tag" href="">{this.props.name}</a>
             </div>
         );
     }

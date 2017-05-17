@@ -1,6 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-{/* import profilePic from '../profilePic.png'; */
-}
+import TimeAgo from 'react-timeago';
 
 const propTypes = {
     name: React.PropTypes.string,
@@ -22,7 +21,7 @@ class CardHeader extends Component {
                     <h3 className="Card-Header-Name">{this.props.name}</h3>
                 </div>
                 <div className="Card-Header-Name-Time">
-                    <span className="Card-Header-Time">{this.props.time}</span>
+                    <span className="Card-Header-Time"><TimeAgo date={Number(this.props.time)} live={true}/></span>
                 </div>
             </div>
         );
