@@ -30,10 +30,10 @@ class PostWriter extends Component {
         let sendData = new FormData();
         sendData.append('title', this.state.title);
         sendData.append('content', this.state.content);
-        sendData.append('tags', tagArr);
-        sendData.append('image', this.fileInput.getInputDOMNode().files[0]);
+        sendData.append('tags', JSON.stringify(tagArr));
+        sendData.append('image', this.fileInput.files[0]);
 
-        console.log(this.fileInput.getInputDOMNode().files[0]);
+        console.log(this.fileInput.files[0]);
         Axios({
             method: 'post',
             url: `${ Config.ip }/api/gram`,
