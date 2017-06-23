@@ -1,9 +1,8 @@
 package kr.studygram.core;
 
-import com.google.common.net.HttpHeaders;
 import com.google.gson.Gson;
+import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpServerResponse;
-import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Cookie;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
@@ -37,21 +36,20 @@ public class LoginHandler extends WebVerticle {
     }
 
     private void requestLogin(RoutingContext routingContext) {
-        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_HEADERS, "Cookie, Origin, X-Requested-With, Content-Type");
-        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "POST, PUT, PATCH, GET, DELETE, OPTIONS, HEAD, CONNECT");
-        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080/*");
-        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080/");
-        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
-        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://localhost:8080");
-//        routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
+        System.out.println("requestLogin called");
+        routingContext.response().putHeader(com.google.common.net.HttpHeaders.ACCESS_CONTROL_ALLOW_HEADERS, "Cookie, Origin, X-Requested-With, Content-Type");
+        routingContext.response().putHeader(com.google.common.net.HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "POST, PUT, PATCH, GET, DELETE, OPTIONS, HEAD, CONNECT");
+        routingContext.response().putHeader(com.google.common.net.HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://browser.studygram.kr:8080/*");
+        routingContext.response().putHeader(com.google.common.net.HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://browser.studygram.kr:8080/");
+        routingContext.response().putHeader(com.google.common.net.HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "http://browser.studygram.kr:8080");
+        routingContext.response().putHeader(com.google.common.net.HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS, "true");
 
-        JsonObject json = routingContext.getBodyAsJson();
-        System.out.println(json);
-        String accessToken = json.getString("accessToken");
 
+        MultiMap attributes = routingContext.request().formAttributes();
+        String accessToken = attributes.get("accessToken");
         HttpServerResponse response = routingContext.response();
         try {
-            InputStream input = new URL("https://graph.facebook.com/me?access_token="+accessToken).openStream();
+            InputStream input = new URL("https://graph.facebook.com/me?type=email,name&access_token="+accessToken).openStream();
             Reader reader = new InputStreamReader(input, "UTF-8");
             Accounts account = (new Gson().fromJson(reader, Accounts.class));
             if(!checkRegistered(account.getId()))
@@ -64,13 +62,37 @@ public class LoginHandler extends WebVerticle {
             session.put(accessToken,account.getId());
             Cookie cookie = Cookie.cookie("login_session", session.id());
             cookie.setPath("/");
+            cookie.setDomain("studygram.kr");
+            cookie.setMaxAge(50000);
+            Cookie asdf = Cookie.cookie("test", session.id());
+            asdf.setDomain(".studygram.kr");
+            asdf.setPath("/");
+            cookie.setMaxAge(50000);
             routingContext.addCookie(cookie);
+            routingContext.addCookie(asdf);
+            response.setChunked(true);
+//            routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
+//            routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "GET");
+//            routingContext.response().end("logined");
+            response.end("logined");
         } catch (IOException e) {
-            e.printStackTrace();
+            Cookie cookie = Cookie.cookie("login_session", "asd");
+            cookie.setPath("/");
+            cookie.setMaxAge(50000);
+            cookie.setDomain("studygram.kr");
+            Cookie asdf = Cookie.cookie("tes", "asdf");
+            asdf.setDomain("studygram.kr");
+            asdf.setPath("/");
+            routingContext.addCookie(cookie);
+            routingContext.addCookie(asdf);
+            response.setChunked(true);
+//            routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN, "*");
+//            routingContext.response().putHeader(HttpHeaders.ACCESS_CONTROL_ALLOW_METHODS, "GET");
+            System.out.println("accessToken has been expired");
+            response.end("logined");
+//            routingContext.response().end("accessToken has been expired");
         }
 
-        response.setChunked(true);
-        response.end("logined");
     }
 
     private boolean checkRegistered(String id)

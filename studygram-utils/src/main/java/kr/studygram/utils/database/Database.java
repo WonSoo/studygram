@@ -50,6 +50,16 @@ public enum Database {
         return this.findMany(collection, searchQuery, 100, 0);
     }
 
+    public JsonArray findKeyword(String collection, Document searchQuery)
+    {
+        this.collection = mongoDatabase.getCollection(collection);
+        MongoCursor<Document> cursor = this.collection.find(searchQuery).iterator();
+        JsonArray jsonArray = new JsonArray();
+        while(cursor.hasNext())
+            jsonArray.add(cursor.next().toJson());
+        return jsonArray;
+    }
+
     public JsonArray findMany(String collection, Document searchQuery, int limit, int lastIndex)
     {
         this.collection = mongoDatabase.getCollection(collection);

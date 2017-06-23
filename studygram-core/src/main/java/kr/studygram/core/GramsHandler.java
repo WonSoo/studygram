@@ -50,7 +50,7 @@ public class GramsHandler extends WebVerticle {
         JsonArray jsonArray = database.findMany("grams", searchQuery, 15, lastIndex);
               response.putHeader("content-type", "text/plain")
                 .putHeader("Access-Control-Allow-Origin", "*")
-                .putHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+                      .putHeader("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
       .putHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
         Cookie cookie = Cookie.cookie("test", "HAHA");
         cookie.setPath("/");
@@ -114,8 +114,11 @@ public class GramsHandler extends WebVerticle {
     }
 
     private void deleteGram(RoutingContext routingContext) {
+        routingContext.response().putHeader("content-type", "text/plain")
+                .putHeader("Access-Control-Allow-Origin", "*")
+                .putHeader("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
+                .putHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
         System.out.println("deleteGram");
         database.remove("grams", new Document("_id", Integer.parseInt(routingContext.pathParam("id"))));
     }
-
 }

@@ -3,6 +3,7 @@ package kr.studygram.core;
 import io.vertx.core.Vertx;
 import io.vertx.core.VertxOptions;
 import io.vertx.core.http.HttpServer;
+import io.vertx.core.net.SelfSignedCertificate;
 import io.vertx.ext.web.Router;
 
 /**
@@ -24,7 +25,7 @@ public class VertxMain {
 
     public static void main(String[] args) {
         initialize();
-
+        SelfSignedCertificate certificate = SelfSignedCertificate.create();
         vertx.deployVerticle(new WebVerticle()); // using static Handler, must be after other verticle deploied.
         vertx.createHttpServer().requestHandler(router::accept).listen(8080);
     }
