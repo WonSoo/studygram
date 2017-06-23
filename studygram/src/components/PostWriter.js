@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import next from '../img/next.svg'
 import Slider from './Slider';
 import Axios from 'axios';
+import MarkdownEditor from 'react-markdown-editor';
 import { Config } from '../resource';
+
+const MarkdownEditorComponent = MarkdownEditor.MarkdownEditor;
 
 const propTypes = {};
 const defaultProps = {};
@@ -64,7 +67,6 @@ class PostWriter extends Component {
                             <label className="Write-Content-Label"></label>
                             <p>무엇을 알게 되었나요?</p>
                         </div>
-                        <textarea className="Title-Input" name="content" value={this.state.content} onChange={this.onTextInputChange}></textarea>
                     </div>
                     <div className="Slide">
                         <div className="Title-Input-Div">

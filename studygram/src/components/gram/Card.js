@@ -11,7 +11,8 @@ const propTypes = {
     content: React.PropTypes.string,
     tags: React.PropTypes.array,
     name: React.PropTypes.string,
-    picture: React.PropTypes.string
+    picture: React.PropTypes.string,
+    cardId: React.PropTypes.number
 };
 const defaultProps = {
     title: 'title',
@@ -28,7 +29,7 @@ class Card extends Component {
         console.info(this.props.picture);
         return (
             <div className="Card">
-                <CardHeader name={this.props.name} time={this.props.time}/>
+                <CardHeader name={this.props.name} time={this.props.time} cardId={this.props.cardId}/>
                 <CardPicture picture={this.props.picture}/>
                 <CardTagContainer tags={this.props.tags}/>
                 <CardArticle content={this.props.content} title={this.props.title}/>

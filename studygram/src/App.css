@@ -189,6 +189,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    z-index: 1;
 }
 
 .Slider-Container {
@@ -205,7 +206,7 @@ body {
 .Slide-Buttons {
     position: absolute;
     width: 100%;
-    z-index: 1;
+    /*z-index: 0;*/
     height: 40px;
     top: 50%;
     transform: translateY(-50%);
@@ -222,6 +223,7 @@ body {
   transition: opacity 0.25s;
   padding: 0px;
   width: 21px;
+  z-index: 1;
 }
 
 .Slider-arrow::after, .Slider-arrow::before {

@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import Axios from 'axios';
-
 /* import logo from './logo.svg'; */
 /* import './App.css'; */
 import {Header, Card, Contents, PostWriter} from '../components';
 import FacebookLogin from 'react-facebook-login';
 import {Config} from '../resource';
-
 class App extends Component {
     constructor(props) {
         super(props);
@@ -16,10 +14,8 @@ class App extends Component {
             lastIndex: 0,
             isGettingGram: false
         }
-
         this.getGrams = this.getGrams.bind(this);
     }
-
     getGrams() {
         this.setState({isGettingGram: true});
         Axios({url: `${Config.ip}/api/gram/${this.state.lastIndex}`, method: 'get'}).then((response) => {
@@ -38,7 +34,6 @@ class App extends Component {
             console.error(error);
         });
     }
-
     componentDidMount() {
         window.addEventListener("scroll", () => {
             let topScrollBottom = window.pageYOffset + window.innerHeight;
@@ -54,18 +49,16 @@ class App extends Component {
             }
         });
     }
-
     setCookie(cname, cvalue, exdays) {
         let d = new Date();
         d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
         var expires = "expires=" + d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + "; domain=.naver.com;";
     }
-
     render() {
         const convertToCard = (cardArr) => {
             return cardArr.map((cardData, i) => {
-                return (<Card key={i} time={cardData.time} picture={`${ Config.ip }/api/image/${cardData.files}`} name={cardData.name} title={cardData.title} time={cardData.time} content={cardData.content} tags={cardData.tags}/>)
+                return (<Card key={i} time={cardData.time} picture={`${Config.ip}/api/image/${cardData.files}`} name={cardData.name} title={cardData.title} time={cardData.time} content={cardData.content} tags={cardData.tags} cardId={cardData['_id']}/>)
             });
         }
         return (
@@ -76,6 +69,7 @@ class App extends Component {
                     {convertToCard(this.state.gramList)}
                     <FacebookLogin appId={Config.fbAppId} autoLoad={true} fields="name,email,picture" onClick={() => {}} callback={(response) => {
                         if (response.accessToken) {
+                            console.info("success callblack");
                             Axios({
                                 method: "post",
                                 url: `${Config.ip}/api/login`,
@@ -94,5 +88,4 @@ class App extends Component {
         );
     }
 }
-
 export default App;
