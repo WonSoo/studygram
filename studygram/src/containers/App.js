@@ -4,6 +4,8 @@ import Axios from 'axios';
 /* import './App.css'; */
 import {Header, Card, Contents, PostWriter} from '../components';
 import FacebookLogin from 'react-facebook-login';
+import { connect } from 'react-redux';
+
 import {Config} from '../resource';
 class App extends Component {
     constructor(props) {
@@ -34,6 +36,7 @@ class App extends Component {
             console.error(error);
         });
     }
+
     componentDidMount() {
         window.addEventListener("scroll", () => {
             let topScrollBottom = window.pageYOffset + window.innerHeight;
@@ -49,12 +52,7 @@ class App extends Component {
             }
         });
     }
-    setCookie(cname, cvalue, exdays) {
-        let d = new Date();
-        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-        var expires = "expires=" + d.toUTCString();
-        document.cookie = cname + "=" + cvalue + ";" + expires + "; domain=.naver.com;";
-    }
+
     render() {
         const convertToCard = (cardArr) => {
             return cardArr.map((cardData, i) => {
@@ -66,6 +64,7 @@ class App extends Component {
                 <Header></Header>
                 <Contents>
                     <PostWriter></PostWriter>
+                    <Card k time={cardData.time} picture={`${Config.ip}/api/image/${cardData.files}`} name={cardData.name} title={cardData.title} time={cardData.time} content={cardData.content} tags={cardData.tags} cardId={cardData['_id']}/>
                     {convertToCard(this.state.gramList)}
                     <FacebookLogin appId={Config.fbAppId} autoLoad={true} fields="name,email,picture" onClick={() => {}} callback={(response) => {
                         if (response.accessToken) {
@@ -88,4 +87,14 @@ class App extends Component {
         );
     }
 }
+
+let mapStateToProps = (state) => {
+    return {
+        grams: state.gram.grams
+    };
+}
+
+App = connect(mapStateToProps)(Counter);
+
+
 export default App;

@@ -164,6 +164,7 @@ body {
     border-radius: 2px;
     height: 30px;
     width: 70%;
+    margin: 20px;
 }
 
 .Post-Writer .Next {
@@ -206,35 +207,35 @@ body {
 .Slide-Buttons {
     position: absolute;
     width: 100%;
-    /*z-index: 0;*/
-    height: 40px;
+    z-index: 1;
+    /*height: 40px;*/
     top: 50%;
     transform: translateY(-50%);
 }
 
 .Slider-arrow {
-  background: none;
-  border: none;
-  height: 35px;
-  opacity: 0.5;
-  outline: none;
-  position: absolute;
-  -webkit-transition: opacity 0.25s;
-  transition: opacity 0.25s;
-  padding: 0px;
-  width: 21px;
-  z-index: 1;
+    background: none;
+    border: none;
+    height: 35px;
+    opacity: 0.5;
+    outline: none;
+    position: absolute;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    padding: 0px;
+    width: 21px;
+    z-index: 1;
 }
 
 .Slider-arrow::after, .Slider-arrow::before {
-  background: black;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 23px;
-  position: absolute;
-  width: 5px;
-  left: 8px;
+    background: black;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 23px;
+    position: absolute;
+    width: 5px;
+    left: 8px;
 }
 
 .Slider-arrow::before {
@@ -281,8 +282,32 @@ body {
     flex-grow: 1;
 }
 
+.markDown-editor {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.react-tagsinput {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
 
+.file-select {
+    margin: 20px;
+}
+
+.custom-btn {
+    background-color: #113F67;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 12px;
+}
 
 @keyframes App-logo-spin {
     from {
