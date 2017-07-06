@@ -44,8 +44,8 @@ class Slider extends Component {
     }
 
     render() {
-        const { showArrow, children } = this.props;
-        const { currentIndex } = this.state;
+        const {showArrow, children} = this.props;
+        const {currentIndex} = this.state;
         const slidesStyles = {
             width: `${ 100 * children.length}%`,
             transform: `translateX(${ - 1 * currentIndex * (100 / children.length)}%)`
