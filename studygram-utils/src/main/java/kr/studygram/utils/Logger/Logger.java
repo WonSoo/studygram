@@ -1,4 +1,4 @@
-package kr.studygram.utils.logger;
+package kr.studygram.utils.Logger;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

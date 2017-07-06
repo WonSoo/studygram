@@ -4,11 +4,14 @@ import io.vertx.core.MultiMap;
 import io.vertx.core.http.HttpServerResponse;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
+import io.vertx.ext.web.Cookie;
 import io.vertx.ext.web.FileUpload;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import kr.studygram.utils.database.Database;
 import org.bson.Document;
+
+import java.util.Date;
 
 /**
  * Created by cynos07 on 2017-04-12.
@@ -26,7 +29,7 @@ public class GramsHandler extends WebVerticle {
         Initialize();
         router.get("/api/gram/:lastIndex").handler(this::getGramMany);
         router.get("/api/gramOne/:id").handler(this::getGramOne);
-        router.get("/api/gramImage/:filename").handler(this::getGramImage);
+        router.get("/api/image/:filename").handler(this::getGramImage);
         router.post("/api/gram").handler(this::addGram);
         router.put("/api/gram/:id").handler(this::updateGram);
         router.delete("/api/gram/:id").handler(this::deleteGram);
@@ -44,10 +47,25 @@ public class GramsHandler extends WebVerticle {
         response.setChunked(true);
         Document searchQuery = new Document();
         searchQuery.put("_id", new Document("$gt", lastIndex));
-        JsonArray jsonArray = database.findMany("grams", searchQuery, 15);
+        JsonArray jsonArray = database.findMany("grams", searchQuery, 15, lastIndex);
+              response.putHeader("content-type", "text/plain")
+                .putHeader("Access-Control-Allow-Origin", "*")
+                      .putHeader("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
+      .putHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+        Cookie cookie = Cookie.cookie("test", "HAHA");
+        cookie.setPath("/");
+        cookie.setDomain("studygram.kr");
+        routingContext.addCookie(cookie);
 
-        response.putHeader("content-type", "application/json; charset=utf-8")
-                .end(jsonArray.toString());
+        if(jsonArray.isEmpty())
+        {
+            response.setStatusCode(204);
+            response.end();
+        }
+        else{
+            response.putHeader("content-type", "application/json; charset=utf-8")
+                    .end(jsonArray.toString());
+        }
     }
 
     private void getGramOne(RoutingContext routingContext) {
@@ -77,35 +95,30 @@ public class GramsHandler extends WebVerticle {
     private void addGram(RoutingContext routingContext) {
         System.out.println("addGram");
         MultiMap attributes = routingContext.request().formAttributes();
+        JsonObject json = new JsonObject();
         // do something with the form data
+        JsonArray fileArray = new JsonArray();
         for(FileUpload fileUpload : routingContext.fileUploads()){
-            System.out.println("fileName: "+fileUpload.fileName());
-            System.out.println("name: "+fileUpload.name());
-            System.out.println("uploadedFileName: "+fileUpload.uploadedFileName());
-            System.out.println("charSet: "+fileUpload.charSet());
-            System.out.println("contentTransferEncoding: "+fileUpload.contentTransferEncoding());
-            System.out.println("contentType: "+fileUpload.contentType());
-            System.out.println("size: "+fileUpload.size());
-
+            fileArray.add(fileUpload.uploadedFileName().replace("file-uploads\\", ""));
             routingContext.response().sendFile(fileUpload.uploadedFileName());
         }
-        System.out.println("attributes.entries(): "+attributes.entries());
-        System.out.println("attributes.get(): "+attributes.get("title"));
-        System.out.println("attributes.getAll(): "+attributes.getAll("title"));
-        JsonObject json = new JsonObject();
         json.put("title", attributes.get("title"));
         json.put("content", attributes.get("content"));
-        json.put("content", attributes.get("content"));
-        json.put("content", attributes.getAll("tags"));
-//        json.put("writer", session)
-//        System.out.println(json);
-//
-//        database.insert("grams", new Document().parse(json.toString()));
+        json.put("files", fileArray);
+        json.put("tags",attributes.get("tags"));
+        System.out.println(new Date().getTime());
+        json.put("time", String.valueOf(new Date().getTime()));
+
+        json.put("writer", "593292274197480");
+        database.insert("grams", new Document().parse(json.toString()));
     }
 
     private void deleteGram(RoutingContext routingContext) {
+        routingContext.response().putHeader("content-type", "text/plain")
+                .putHeader("Access-Control-Allow-Origin", "*")
+                .putHeader("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS")
+                .putHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
         System.out.println("deleteGram");
         database.remove("grams", new Document("_id", Integer.parseInt(routingContext.pathParam("id"))));
     }
-
 }

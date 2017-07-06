@@ -6,6 +6,11 @@ package kr.studygram.content;
 public class Accounts {
     private String name;
     private String id;
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
 
     public String getName() {
         return name;
